@@ -6,6 +6,8 @@ A resource for leveraging for AI projects -
 NVIDIA® Jetson Nano™ Developer Kit is a small, powerful computer that lets you run multiple neural networks in parallel for applications like image classification, object detection, segmentation, and speech processing. All in an easy-to-use platform that runs in as little as 5 watts." 
 https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
+![Jetsonnano](https://github.com/timcordova/jetsonNano/blob/main/references/IMG_20201127_111507.jpg)
+
 ## Useful links for setup and tutorials 
 https://github.com/dusty-nv/jetson-inference
 
