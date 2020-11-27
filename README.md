@@ -8,6 +8,9 @@ https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
 ![Jetsonnano](https://github.com/timcordova/jetsonNano/blob/main/references/IMG_20201127_111507.jpg)
 
+## Setups Scripts collected 
+https://github.com/timcordova/JetsonNano/tree/main/Scripts
+
 ## Useful links for setup and tutorials 
 https://github.com/dusty-nv/jetson-inference
 
