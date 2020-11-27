@@ -11,6 +11,9 @@ https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 ## Setups Scripts collected 
 https://github.com/timcordova/JetsonNano/tree/main/Scripts
 
+# Awesome-Pytorch-list
+https://awesomeopensource.com/project/bharathgs/Awesome-pytorch-list
+
 ## Useful links for setup and tutorials 
 https://github.com/dusty-nv/jetson-inference
 
