@@ -31,12 +31,17 @@ optimizer = torch.optim.SGD(rnn.parameters(), lr=learning_rate)
 criterion = nn.NLLLoss()
 
 def train(category_tensor, line_tensor):
-    hidden = rnn.initHidden()
-    optimizer.zero_grad()
+    device = torch.device('cuda:0')
 
+    rnn.zero_grad()
+    hidden = rnn.init_hidden()
+    
     for i in range(line_tensor.size()[0]):
-        output, hidden = rnn(line_tensor[i], hidden)
-
+        holval = line_tensor[i].to(device)
+        output, hidden = rnn(holval, hidden)
+        #output, hidden = rnn(line_tensor[i], hidden)
+    output = output.to(device)
+    category_tensor = category_tensor.to(device)
     loss = criterion(output, category_tensor)
     loss.backward()
 
