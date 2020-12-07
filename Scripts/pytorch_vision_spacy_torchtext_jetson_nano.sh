@@ -2,7 +2,6 @@
 
 # This script will install pytorch, torchvision, torchtext and spacy on nano. 
 # If you have any of these installed already on your machine, you can skip those.
-
 sudo apt-get -y update
 sudo apt-get -y upgrade
 #Dependencies
